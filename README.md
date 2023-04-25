@@ -12,3 +12,10 @@
    (pere, marta, anna...)
 
 
+```
+docker run --rm --name web.edt.org -h web.edt.org -d edtasixm05/web22:latest
+
+docker run --rm --name net.edt.org -h net.edt.org -d edtasixm05/net22:latest 
+
+docker run --rm --name ssh.edt.org -h ssh.edt.org -p 22:22 -d edtasixm05/ssh22:latets 
+```
